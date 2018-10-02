@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "sass": "./node_modules/.bin/sass --watch src/sass/main.scss dist/css/main.css",
+    "sass": "./node_modules/.bin/sass --watch src/sass/main.scss dist/css/style.css",
     "browser-sync": "./node_modules/.bin/browser-sync start --server 'dist' --files 'dist'",
     "babel": "./node_modules/.bin/babel src/js --out-dir dist/js --watch",
     "copy": "./node_modules/.bin/cpx \"src/**/*.html\" dist --watch",
